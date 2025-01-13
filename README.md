@@ -4,6 +4,20 @@ Python ach as Gaeilge! — Python but in Gaelic!
 
 A work in progress port of the Python Programming language to Gaelic!
 
+## Example
+
+Currently this works:
+
+````
+>>>uimhir: uim = 10
+>>>uim
+10
+>>>boolval = Fior
+>>>if boolval == True: print("Fior == True")
+Fior == True
+````
+
+
 ## Building
 ### Linux Build Simple
 
