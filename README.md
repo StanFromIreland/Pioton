@@ -13,6 +13,18 @@ Clone the repository and then in the cloned repository run the following command
 ./configure --enable-optimizations
 make -j$(nproc)
 ````
+## Translations
+
+None - Folamh
+False - Breagach
+True - Fior
+bytes - bearti
+complex - coimpleasc
+enumerate - luaigh
+filter - scag
+int - uim
+list - liosta
+
 ## Log
 
 * 13/01/2025

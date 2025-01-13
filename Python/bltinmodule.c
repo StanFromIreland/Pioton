@@ -3385,6 +3385,39 @@ _PyBuiltin_Init(PyInterpreterState *interp)
     SETBUILTIN("tuple",                 &PyTuple_Type);
     SETBUILTIN("type",                  &PyType_Type);
     SETBUILTIN("zip",                   &PyZip_Type);
+
+    // Irish
+    SETBUILTIN("Folamh",                  Py_None);
+    //SETBUILTIN("Ellipsis",              Py_Ellipsis);
+    //SETBUILTIN("NotImplemented",        Py_NotImplemented);
+    SETBUILTIN("Breagach",                 Py_False);
+    SETBUILTIN("Fior",                  Py_True);
+    //SETBUILTIN("memoryview",            &PyMemoryView_Type);
+    //SETBUILTIN("bytearray",             &PyByteArray_Type);
+    SETBUILTIN("bearti",                 &PyBytes_Type);
+    //SETBUILTIN("classmethod",           &PyClassMethod_Type);
+    SETBUILTIN("coimpleasc",               &PyComplex_Type);
+    //SETBUILTIN("dict",                  &PyDict_Type);
+    SETBUILTIN("luaigh",             &PyEnum_Type);
+    SETBUILTIN("scag",                &PyFilter_Type);
+    //SETBUILTIN("float",                 &PyFloat_Type);
+    //SETBUILTIN("frozenset",             &PyFrozenSet_Type);
+    //SETBUILTIN("property",              &PyProperty_Type);
+    SETBUILTIN("uim",                   &PyLong_Type);
+    SETBUILTIN("liosta",                  &PyList_Type);
+//    SETBUILTIN("map",                   &PyMap_Type);
+//    SETBUILTIN("object",                &PyBaseObject_Type);
+//    SETBUILTIN("range",                 &PyRange_Type);
+//    SETBUILTIN("reversed",              &PyReversed_Type);
+//    SETBUILTIN("set",                   &PySet_Type);
+//    SETBUILTIN("slice",                 &PySlice_Type);
+//    SETBUILTIN("staticmethod",          &PyStaticMethod_Type);
+//    SETBUILTIN("str",                   &PyUnicode_Type);
+//    SETBUILTIN("super",                 &PySuper_Type);
+//    SETBUILTIN("tuple",                 &PyTuple_Type);
+//    SETBUILTIN("type",                  &PyType_Type);
+//    SETBUILTIN("zip",                   &PyZip_Type);
+
     debug = PyBool_FromLong(config->optimization_level == 0);
     if (PyDict_SetItemString(dict, "__debug__", debug) < 0) {
         Py_DECREF(debug);
