@@ -16,4 +16,4 @@ make -j$(nproc)
 ## Log
 
 * 13/01/2025
-    * Created Repository. Loaded the newest cpython version (3.14.0 alpha 3).
+    * Created Repository. Loaded the newest cpython version (3.14.0 alpha 3). A little cleanup.
