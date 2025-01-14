@@ -50,7 +50,15 @@ kwlist = [
     'try',
     'while',
     'with',
-    'yield'
+    'yield',
+
+    # Irish
+    'Breagach',
+    'Noin',
+    'Fior',
+    'ma',
+    'elma',
+    'eile'
 ]
 
 softkwlist = [
